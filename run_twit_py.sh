@@ -1,0 +1,1 @@
+hadoop jar /hadoop/hadoop-2.3.0/lib/mongo-hadoop-core-1.3.0.jar -mapper /home/mike/workspace/monhad/twit_map.py -reducer /home/mike/workspace/monhad/twit_reduce.py -inputURI mongodb://127.0.0.1/twitterdb.live -outputURI mongodb://127.0.0.1/twitterdb.twit_reduction -file /home/mike/workspace/monhad/twit_map.py  -file /home/mike/workspace/monhad/twit_reduce.py
